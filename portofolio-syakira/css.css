@@ -1,0 +1,165 @@
+/* CSS Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #B4CFEC;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.profile {
+  background-color: #ffffff;
+  padding: 25px 50px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  animation: fade-in 3s ease;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 2;
+  }
+}
+
+.profile-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  animation: slide-up 3s ease;
+}
+
+@keyframes slide-up {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.profile-info div {
+  flex-basis: 50%;
+}
+
+.profile-info strong {
+  font-weight: bold;
+}
+
+.profile-details {
+  margin-bottom: 20px;
+  animation: slide-up 1s ease;
+}
+
+.profile-details h2 {
+  margin-bottom: 10px;
+}
+
+.prestasi {
+  margin-bottom: 20px;
+  animation: slide-up 1s ease;
+}
+
+.prestasi h2 {
+  margin-bottom: 10px;
+}
+
+.kepribadian {
+  margin-bottom: 20px;
+  animation: slide-up 1s ease;
+}
+
+.kepribadian h2 {
+  margin-bottom: 10px;
+}
+
+.keahlian {
+  margin-bottom: 20px;
+  animation: slide-up 1s ease;
+}
+
+.keahlian h2 {
+  margin-bottom: 10px;
+}
+
+.hobby {
+  margin-bottom: 20px;
+  animation: slide-up 1s ease;
+}
+
+.hobby h2 {
+  margin-bottom: 10px;
+}
+
+.favorite-food {
+  margin-bottom: 20px;
+  animation: slide-up 1s ease;
+}
+
+.favorite-food h2 {
+  margin-bottom: 10px;
+}
+
+svg {
+  margin: 0 10px;
+}
+
+.fg a[href] {
+  text-decoration: none;
+  color: black;
+}
+
+.fg a[href]:hover {
+  color: lightseagreen;
+  transition: 0.5s;
+}
+
+td {
+  position: relative;
+  bottom: 10px;
+}
+
+p {
+  text-indent: 2rem;
+}
+
+
+/* * {
+  box-sizing: border-box;
+  font-family: Sen, sans-serif;
+} */
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 80px;
+}
+
+body {
+  font-family: Sen, sans-serif;
+  background-color: #B4CFEC;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  padding: 50px 150px;
+  overflow: auto;
+}
+
+footer {
+  padding: 20px;
+  font-weight: 500;
+  text-align: center;
+  color: #3E3D3D;
+}
